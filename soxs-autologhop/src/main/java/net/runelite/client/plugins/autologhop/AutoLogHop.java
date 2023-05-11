@@ -35,7 +35,7 @@ import static java.awt.event.KeyEvent.VK_ENTER;
 
 @Extension
 @PluginDescriptor(
-        name = "AutoLogHop",
+        name = "AutoLogHopUpdated",
         description = "Auto hops/logs out when another player is seen.",
         tags = {"logout", "hop worlds", "auto log", "auto hop", "soxs"},
         enabledByDefault = false,
