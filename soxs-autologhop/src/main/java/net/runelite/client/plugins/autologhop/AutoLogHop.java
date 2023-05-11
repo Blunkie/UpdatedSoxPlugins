@@ -216,6 +216,10 @@ public class AutoLogHop extends Plugin {
 
             if (w.getTypes().contains(net.runelite.http.api.worlds.WorldType.HIGH_RISK) ||
                     w.getTypes().contains(net.runelite.http.api.worlds.WorldType.DEADMAN) ||
+                    w.getTypes().contains(net.runelite.http.api.worlds.WorldType.FRESH_START_WORLD) ||
+                    w.getTypes().contains(net.runelite.http.api.worlds.WorldType.QUEST_SPEEDRUNNING) ||
+                w.getTypes().contains(net.runelite.http.api.worlds.WorldType.TOURNAMENT) ||
+                w.getTypes().contains(net.runelite.http.api.worlds.WorldType.PVP_ARENA) ||
                     w.getTypes().contains(net.runelite.http.api.worlds.WorldType.PVP) ||
                     w.getTypes().contains(net.runelite.http.api.worlds.WorldType.SKILL_TOTAL) ||
                     w.getTypes().contains(net.runelite.http.api.worlds.WorldType.BOUNTY) ||
